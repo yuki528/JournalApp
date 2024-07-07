@@ -1,0 +1,37 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+   "types": ["react"],//,"react-dom","react-native", //"react-router-native"],
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react-native",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@context/*": ["context/*"],
+      "@navigation/*": ["navigation/*"],
+      "@screens/*": ["screens/*"],
+      "@services/*": ["services/*"],
+      "@styles/*": ["styles/*"],
+      "@tests/*": ["tests/*"],
+      "@utils/*": ["utils/*"]
+    },
+    "typeRoots": ["node_modules/@types", "./types"],
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "src",
+    "src/App.tsx",
+    "index.web.tsx",
+    "metro.config.js"
+, "babel.config.js"  ],
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "jest.config.js"
+  ]
+}

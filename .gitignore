@@ -1,0 +1,41 @@
+*.jks
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+web-report/
+/dist/
+.env
+.vscode/
+.idea/
+npm-debug.log*
+# Ignore TypeScript cache
+*.tsbuildinfo
+# Ignore any other temporary or build-specific files
+*.log
+*.swp
+# Node.js
+node_modules/
+
+# TypeScript
+*.tsbuildinfo
+
+.yarn
+
+
+# Editor
+.vscode/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+/backend/node_modules/
+/frontend/node_modules/
+
+# Environment variables
+.env

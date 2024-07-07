@@ -1,0 +1,36 @@
+{
+    "expo": {
+      "name": "JournalApp",
+      "slug": "journal-app",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "icon": "./assets/icon.png",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      },
+      "web": {
+        "favicon": "./assets/favicon.png"
+      },
+      "platforms": ["ios", "android", "web"],
+      "description": "A journaling app built with React Native and TypeScript.",
+      "developer": {
+        "name": "IAN KIPLIMO",
+        "Github": "https://Github.com/yuki528",
+        "privacy": "",
+        "terms": ""
+      },
+      "ios": {
+        "supportsTablet": true
+      },
+      "android": {
+        "package": "com.example.journalapp",
+        "versionCode": 1
+      },
+      "extra": {
+        "apiEndpoint": "https://api.example.com"
+      }
+    }
+  }
+  
