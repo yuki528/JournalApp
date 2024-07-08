@@ -9,9 +9,7 @@ const SettingsScreen: React.FC = () => {
   const [newPassword, setNewPassword] = useState('');
 
   const handleUpdate = () => {
-    // Implement logic to update username and/or password
     console.log('Updating settings:', { username, password, newPassword });
-    // Display success message or handle errors
   };
 
   return (

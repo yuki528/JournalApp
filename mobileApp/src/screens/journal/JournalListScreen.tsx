@@ -32,7 +32,6 @@ const JournalListScreen: React.FC = () => {
   const data: JournalEntry[] = [
     { id: 1, title: 'Entry 1', category: 'Personal', date: '2024-07-01' },
     { id: 2, title: 'Entry 2', category: 'Work', date: '2024-07-02' },
-    // Add more entries as needed
   ];
 
   const renderItem = ({ item }: { item: JournalEntry }) => (

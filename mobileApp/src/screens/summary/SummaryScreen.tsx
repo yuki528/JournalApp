@@ -8,7 +8,7 @@ const SummaryScreen: React.FC = () => {
 
   const handlePeriodChange = (period: string) => {
     setSelectedPeriod(period);
-    // Implement logic to fetch summary data for selected period
+    // logic to fetch summary data for selected period
   };
 
   const renderSummary = () => {
@@ -18,7 +18,6 @@ const SummaryScreen: React.FC = () => {
         <Text>Summary for {selectedPeriod}</Text>
         <Text>Number of entries: 5</Text>
         <Text>Average word count: 150</Text>
-        {/* Add more summary data as needed */}
       </View>
     );
   };
